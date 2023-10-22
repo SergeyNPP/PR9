@@ -14,3 +14,6 @@ for (int i = 1; i <=B; i++)
 }
 Console.WriteLine();
 Console.Write($"{A}, {B} -> {result}");
+
+
+
