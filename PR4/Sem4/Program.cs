@@ -222,7 +222,20 @@ PrintArray(arr); // напечатали отсортированный
 //      }
 // }
 
+int DigitCounter(int num)
+{
+    int counter = 0;
+    while (num > 0)
+    {
+        num /= 10;
+        counter++;
+    }
+    return counter;
+}
+System.Console.WriteLine("Input number: ");
+int num = Convert.ToInt32(Console.ReadLine ());
 
+System.Console.WriteLine(DigitCounter(num));
 
 
 
